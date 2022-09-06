@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: rgb(154, 233, 233);
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -53,6 +54,7 @@ section {
 }
 
 .card {
+    border: 2px solid beige;
     width: 100%;
     font-size: 13px;
     flex: 0 0 auto;         
@@ -86,7 +88,7 @@ section {
 }
 
 
-/* ADD */
+
 .card--price {
     margin-top: auto;
 }
@@ -109,3 +111,7 @@ section {
 .spanP {
     padding-top: -5px;
 }
+
+
+
+/* MEDIA-Qz NEEDED */
