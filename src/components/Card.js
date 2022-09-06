@@ -15,8 +15,8 @@ export default function Card(props) {
             <img src={props.item.imageUrl} className="card--image" />
             <div className="card--stats">
                 <h2>{props.item.title}</h2>
-                <span>{props.item.location}</span>
-                <span>({props.item.year}) • </span>
+                <h3>{props.item.location}</h3>
+                <span>({props.item.year})</span>
                 {/* <span>{props.item.description}</span> */}
             </div>
             <p className="card--descipription">{props.item.description}</p>
